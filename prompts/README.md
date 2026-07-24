@@ -1,6 +1,6 @@
 # Agent Prompt Library
 
-Twelve reusable prompts. Copy one, fill the `<>` placeholders, paste it to your agent.
+Thirteen reusable prompts. Copy one, fill the `<>` placeholders, paste it to your agent.
 
 Read [../AI-AGENT-GUIDE.md](../AI-AGENT-GUIDE.md) first — it defines the reading order and the
 non-negotiable behaviours every prompt below assumes.
@@ -25,6 +25,7 @@ non-negotiable behaviours every prompt below assumes.
 |---|---|
 | [03-redesign-inconsistent-ui.md](03-redesign-inconsistent-ui.md) | Bringing an inconsistent interface onto a system |
 | [10-refactor-to-tokens.md](10-refactor-to-tokens.md) | Replacing hard-coded values with tokens |
+| [13-adopt-into-existing-project.md](13-adopt-into-existing-project.md) | Reconciling this layer against a project's existing design guidance, then planning a redesign |
 
 ## Verification
 

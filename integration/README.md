@@ -99,7 +99,7 @@ After publishing, set the URL once:
 
 ```jsonc
 // ~/.claude/skills/design-intelligence/scripts/di_config.json
-{ "url": "https://raw.githubusercontent.com/<you>/design-intelligence/main" }
+{ "url": "https://raw.githubusercontent.com/atj393/design-intelligence/main" }
 ```
 
 Then `di.py` falls back to the URL whenever no local copy is found, and the agent fetches

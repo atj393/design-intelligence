@@ -185,7 +185,7 @@ Create the empty repo on GitHub first — **no README, no licence, no .gitignore
 will conflict. Then:
 
 ```bash
-git remote add origin https://github.com/<you>/design-intelligence.git
+git remote add origin https://github.com/atj393/design-intelligence.git
 git push -u origin main
 ```
 
@@ -205,7 +205,7 @@ gh repo create design-intelligence --public --source=. --remote=origin --push \
 cat > "$HOME/.claude/skills/design-intelligence/scripts/di_config.json" <<'JSON'
 {
   "local_paths": [],
-  "url": "https://raw.githubusercontent.com/<you>/design-intelligence/main"
+  "url": "https://raw.githubusercontent.com/atj393/design-intelligence/main"
 }
 JSON
 
@@ -220,7 +220,7 @@ session case.
 The only test that matters. In a cloud session with no local checkout, ask an agent to fetch:
 
 ```
-https://raw.githubusercontent.com/<you>/design-intelligence/main/AGENT-ENTRY.md
+https://raw.githubusercontent.com/atj393/design-intelligence/main/AGENT-ENTRY.md
 ```
 
 Confirm it (a) fetches, (b) follows the routing table, and (c) **states the evidence strength** of
@@ -236,7 +236,7 @@ For contributing upstream rather than running an independent copy.
 ```bash
 # Fork via the GitHub web UI, then:
 cd <this-repo>
-git remote add mine https://github.com/<you>/awesome-design-md.git
+git remote add mine https://github.com/atj393/awesome-design-md.git
 git checkout -b design-intelligence
 git add design-intelligence README.md
 git commit -m "Add design-intelligence: derived design guidance layer"
@@ -246,7 +246,7 @@ git push -u mine design-intelligence
 Raw URLs then look like:
 
 ```
-https://raw.githubusercontent.com/<you>/awesome-design-md/design-intelligence/design-intelligence/AGENT-ENTRY.md
+https://raw.githubusercontent.com/atj393/awesome-design-md/design-intelligence/design-intelligence/AGENT-ENTRY.md
 ```
 
 **Advantages:** citations keep working unchanged (`design-md/` is right there); no licence

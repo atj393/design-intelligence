@@ -62,6 +62,7 @@ Find your task, read those files, stop.
 | **Add a page/view to an existing app** | Project `DESIGN.md` → your category guide | [prompts/02-new-page.md](prompts/02-new-page.md) |
 | **Build a specific component** | Project `DESIGN.md` §Components | §0 items 5–7 above |
 | **Fix an inconsistent UI** | [ANTI-PATTERNS.md](ANTI-PATTERNS.md) | [prompts/03-redesign-inconsistent-ui.md](prompts/03-redesign-inconsistent-ui.md) |
+| **Adopt this layer into a project that already has design guidance** | [CATEGORY-SELECTION.md](CATEGORY-SELECTION.md) | [prompts/13-adopt-into-existing-project.md](prompts/13-adopt-into-existing-project.md) |
 | **Decide a specific design question** | [DESIGN-DECISION-HANDBOOK.md](DESIGN-DECISION-HANDBOOK.md) | — |
 | **Review an implementation** | [checklists/foundation-review.md](checklists/foundation-review.md) + your category checklist | [prompts/09-review-against-design-md.md](prompts/09-review-against-design-md.md) |
 | **Replace hard-coded values with tokens** | — | [prompts/10-refactor-to-tokens.md](prompts/10-refactor-to-tokens.md) |

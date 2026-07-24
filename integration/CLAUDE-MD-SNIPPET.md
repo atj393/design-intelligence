@@ -62,7 +62,7 @@ for a visual change.
 This project's design system is defined in `DESIGN.md` at the repo root. **It is authoritative.**
 
 General design guidance: fetch
-`https://raw.githubusercontent.com/<you>/design-intelligence/main/AGENT-ENTRY.md`
+`https://raw.githubusercontent.com/atj393/design-intelligence/main/AGENT-ENTRY.md`
 and follow its routing. Read only the two or three files it points to.
 
 Primary category for this project: **<CATEGORY>**
@@ -81,7 +81,7 @@ for a visual change.
 |---|---|
 | `<CATEGORY>` | `di.py route "<your product description>"`, or `CATEGORY-SELECTION.md` |
 | `<density>` | Visit frequency: daily → compact, weekly → default, rare → spacious |
-| `<you>` | Your GitHub account, after publishing |
+| *(published)* | Already live at `atj393/design-intelligence` |
 
 ## Why bother, if the skill already triggers?
 
