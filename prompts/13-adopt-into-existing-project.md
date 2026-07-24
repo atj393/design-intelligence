@@ -23,8 +23,7 @@ THE DESIGN STANDARD — the only thing configured here
 ════════════════════════════════════════════════════════════════════════
 Resolve in this order and use the FIRST one that works:
 
-  1. LOCAL   d:/repos/support/design-intelligence
-  2. LOCAL   d:/repos/support/awesome-design-md/design-intelligence
+  1. LOCAL   <PATH>\design-intelligence
   3. VENDORED ./.design-intelligence/            (inside this repo, if present)
   4. PUBLIC  https://github.com/atj393/design-intelligence
              fetch files from:
